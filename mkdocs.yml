@@ -1,0 +1,113 @@
+site_name: SkillATS help
+site_url: https://aayush27.github.io/skill-ats/
+repo_url: https://github.com/aayush27/skill-ats
+repo_name: skill-ats
+site_description: "Help centre for SkillATS — hire with jobs, candidates, AI search, AAA, and career sites"
+
+extra_css:
+  - stylesheets/theme.css
+
+theme:
+  name: material
+  # Uncomment when you add docs/assets/favicon.png:
+  # favicon: assets/favicon.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - content.code.copy
+    - search.suggest
+    - navigation.sections
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.keys
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+
+plugins:
+  - search
+  - glightbox:
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      zoomable: true
+      auto_caption: false
+      caption_position: bottom
+  - macros
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/future-skill/
+
+nav:
+  - Home:
+      - index.md
+  - Getting started:
+      - getting_started/Overview.md
+      - getting_started/Signup_and_login.md
+      - getting_started/Dashboard.md
+  - Hiring:
+      - jobs/Manage_jobs.md
+      - jobs/Create_and_edit_jobs.md
+      - jobs/Candidates_board.md
+  - Candidates:
+      - candidates/Candidates_list.md
+      - candidates/Candidate_record.md
+      - candidates/AI_candidate_search.md
+  - AAA (assignment emails):
+      - aaa/AAA_overview.md
+      - aaa/Setup.md
+      - aaa/How_it_works.md
+  - Career site:
+      - career/Career_editor.md
+      - career/Public_career_site.md
+  - Settings:
+      - settings/Company_settings.md
+      - settings/Integrations.md
+      - settings/Profile_and_AAA.md
+      - settings/GDPR_and_privacy.md
+  - Help:
+      - reference/Finding_your_way.md
+      - reference/Glossary.md

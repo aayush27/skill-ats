@@ -1,0 +1,22 @@
+:root {
+  --sa-accent: #295c88;
+}
+
+.md-typeset .screenshot-needed {
+  border: 1px dashed #9ca3af;
+  border-radius: 8px;
+  padding: 1.25rem 1rem;
+  background: color-mix(in srgb, var(--md-default-bg-color) 92%, #64748b);
+  color: var(--md-default-fg-color--light);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.md-typeset .screenshot-needed strong {
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset img {
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%);
+}
