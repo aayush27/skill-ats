@@ -23,6 +23,7 @@ Use this page as a quick map of SkillATS.
 | **Settings** | Dashboard / account menu | Company, team, stages, integrations, privacy |
 | **Profile** | Dashboard / account menu | Your details and AAA |
 | **Hiring board** | From a job in **Jobs** | Move candidates through stages |
+| **Custom board** | Dashboard → **Custom Boards** → **Add board** | Pipeline without a job |
 | **AI Search** | **Candidates** → **AI Search** | Ask for matching people in chat |
 | **Candidates due for deletion** | From **Settings** | Privacy / retention follow-up |
 

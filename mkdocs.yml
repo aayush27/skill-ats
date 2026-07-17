@@ -92,6 +92,7 @@ nav:
       - jobs/Manage_jobs.md
       - jobs/Create_and_edit_jobs.md
       - jobs/Candidates_board.md
+      - jobs/Custom_boards.md
   - Candidates:
       - candidates/Candidates_list.md
       - candidates/Candidate_record.md

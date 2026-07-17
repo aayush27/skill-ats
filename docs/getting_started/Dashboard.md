@@ -27,6 +27,9 @@ Depending on your company, the dashboard may show:
 | Edit company setup     | Open **Settings**                    |
 | Edit my details or AAA | Open **Profile**                     |
 | Change the career site | Open **Career Site** in the top menu |
+| Create a custom board | In **Custom Boards**, click **Add board** |
+
+Custom boards are pipelines **without** a job — useful for projects or talent pools. See [Custom boards](../jobs/Custom_boards.md). Job pipelines are covered under [The hiring board](../jobs/Candidates_board.md).
 
 !!! tip
 Click the SkillATS logo anytime to return to the dashboard.

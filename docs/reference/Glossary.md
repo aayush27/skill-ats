@@ -9,7 +9,8 @@ title: Glossary
 | **SkillATS** | The hiring product at skillats.com |
 | **Dashboard** | Home screen after you sign in |
 | **Job** | An open role you hire for |
-| **Board / pipeline** | Stages (columns) for a job’s candidates |
+| **Board / pipeline** | Stages (columns) for candidates on a job or custom board |
+| **Custom board** | A pipeline not linked to a job (no auto tests / job reject email) |
 | **Stage** | A step in hiring, e.g. Applied or Interview |
 | **Candidate** | A person in your talent pool |
 | **Career site** | Public pages where people browse jobs and apply |
