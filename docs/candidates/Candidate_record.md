@@ -52,7 +52,7 @@ Use **… → Move card** to send the candidate to another board **and remove** 
 The form is the same as Copy card (name, board, stage, and what to keep). Confirm with **Move card**.
 
 !!! tip
-    Prefer **Copy** if they should stay visible on both boards. Prefer **Move** if they should only live on the new board.
+Prefer **Copy** if they should stay visible on both boards. Prefer **Move** if they should only live on the new board.
 
 ## Reminder
 
@@ -63,23 +63,24 @@ Use **… → Reminder** to set a follow-up date and notify colleagues.
 3. Optionally add a short note.
 4. Click **Set Reminder**.
 
-The reminder date appears on the left of the candidate page. If a reminder already exists, open the same menu item and choose **Unset Reminder** to clear it. Reminder notes also show up in Notes & Activity.
+The reminder date appears on the left of the candidate page. If a reminder already exists, open the same menu item and choose **Unset Reminder** to clear it. Reminder notes also show up in Notes & Activity. On the reminder day, colleagues will get an email notification.
 
 ## AI Analysis
 
 Open the **AI Analysis** tab (available when the candidate is on a job) for a **Candidate Fit Analysis**.
 
-| Situation | What you do |
-|-----------|-------------|
-| No analysis yet | Click **Analyse** |
-| Older text-only summary | Click **Generate full analysis** |
-| Full analysis already exists | Click **Reanalyse** to refresh |
+| Situation                    | What you do                      |
+| ---------------------------- | -------------------------------- |
+| No analysis yet              | Click **Analyse**                |
+| Older text-only summary      | Click **Generate full analysis** |
+| Full analysis already exists | Click **Reanalyse** to refresh   |
 
 A full analysis typically shows:
 
 - Overall fit score (out of 100) and confidence
 - Short summary paragraphs (**Show more** / **Show less**)
 - **Key Requirements Match** — how well they match each requirement, with strength and sources
+- It fetches the requirements from the edit job page AI Analysis fields
 
 ![CandidateAIAnalysis](../assets/CandidateAIAnalysis.png)
 
@@ -99,18 +100,18 @@ In the same **Notes & Activity** tab, notes and system events appear together in
 
 ## Other useful actions
 
-| Action | Where | What it does |
-|--------|--------|--------------|
-| Change stage | Top stage dropdown | Moves them to another column on this board |
-| Hire / Reject | Status dropdown | Sets Open, Hired, or Rejected. Rejecting may offer to send an automatic rejection email |
-| Copy link | **… → Copy link** | Copies a link to this candidate card |
-| Remove from job | **… → Remove from job** | Removes them from this job (with confirmation) |
-| Send tests | **Tests** tab | Send assessments and open results when finished |
-| Attachments | **Attachments** tab | Upload, view, download, or delete CVs and files |
-| Messages | **Messages** tab | Send and review email-style messages |
-| Reviews | **Reviews** tab | Add or edit skill ratings and comments |
-| Summary | **Summary** tab | Description, education, projects, skills/tags |
-| Renew GDPR | Top button | Records that the candidate renewed privacy approval |
+| Action          | Where                   | What it does                                                                            |
+| --------------- | ----------------------- | --------------------------------------------------------------------------------------- |
+| Change stage    | Top stage dropdown      | Moves them to another column on this board                                              |
+| Hire / Reject   | Status dropdown         | Sets Open, Hired, or Rejected. Rejecting may offer to send an automatic rejection email |
+| Copy link       | **… → Copy link**       | Copies a link to this candidate card                                                    |
+| Remove from job | **… → Remove from job** | Removes them from this job (with confirmation)                                          |
+| Send tests      | **Tests** tab           | Send assessments and open results when finished                                         |
+| Attachments     | **Attachments** tab     | Upload, view, download, or delete CVs and files                                         |
+| Messages        | **Messages** tab        | Send and review email-style messages                                                    |
+| Reviews         | **Reviews** tab         | Add or edit skill ratings and comments                                                  |
+| Summary         | **Summary** tab         | Description, education, projects, skills/tags                                           |
+| Renew GDPR      | Top button              | Records that the candidate renewed privacy approval                                     |
 
 ## Profiles
 
